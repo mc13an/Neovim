@@ -1,2 +1,2 @@
 # Neovim
-# Neovim
+Neovim config for the win
