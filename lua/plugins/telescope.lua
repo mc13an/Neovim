@@ -15,8 +15,20 @@ return {
 		vim.keymap.set("n", "<leader><leader>", builtin.buffers, { desc = "[ ] Find existing buffers" })
 
 		require("telescope").setup({
-			buffers = {
-				theme = "ivy",
+			defaults = {
+				path_display = {
+					filename_first = {
+						reverse_directories = true,
+					},
+				},
+			},
+			pickers = {
+				buffers = {
+					theme = "ivy",
+				},
+				find_files = {
+					theme = "ivy",
+				},
 			},
 			extensions = {
 				["ui-select"] = {
