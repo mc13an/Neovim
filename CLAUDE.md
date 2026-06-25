@@ -50,7 +50,7 @@ Leader is `<Space>`. Each binding is defined in the plugin file noted in the las
 | `<leader>xQ` | Quickfix list (Trouble) | `trouble.lua` |
 | `grd` | LSP go to definition (Telescope picker on multiple) | `lsp-config.lua` (LspAttach) |
 | `gra` | LSP code action | `lsp-config.lua` (LspAttach) |
-| `grr` | LSP references | `lsp-config.lua` (LspAttach) |
+| `grr` | LSP references (Telescope picker) | `lsp-config.lua` (LspAttach) |
 | `grn` | LSP rename | `lsp-config.lua` (LspAttach) |
 | `K` | LSP hover | `lsp-config.lua` (LspAttach) |
 | `gt` / `]]` / `<A-l>` | Next buffer (barbar) | `barber.lua` |
