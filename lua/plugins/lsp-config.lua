@@ -69,6 +69,8 @@ return {
 			end,
 		})
 
+		vim.keymap.set("n", "<leader>K", vim.diagnostic.open_float, { desc = "Show line diagnostics" })
+
 		-- Diagnostic config
 		vim.diagnostic.config({
 			severity_sort = true,
